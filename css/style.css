@@ -1,0 +1,182 @@
+body {
+	background-color: #fab778;
+}
+
+.menu {
+  margin: 0 200px;
+  position: relative;
+  background: #fa4b00;    
+}
+
+.menu:before,
+.menu:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}
+
+.menu:before {
+  top: 0;
+  border-bottom: 3px double #8f837e;
+}
+
+.menu:after {
+  bottom: 0;
+  border-top: 3px double #8f837e;
+}
+
+.menu-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.menu-item li {
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.menu-item a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  color: white;
+  transition: .3s linear;
+}
+
+.menu-item a.current,
+.menu-item a:hover {
+  background: rgba(0,0,0,.2);
+}
+
+@media (max-width: 600px) {
+.menu {
+  margin: 0;
+}
+
+.menu-item li {
+  display: block;
+  margin-right: 0;
+}
+
+.menu-item a {
+  display: block;
+}
+}
+
+body.cot h2 {
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #eaeaea;
+}
+
+.min-op{
+  color: #707070;
+  font-size: 14px;
+  font-size: italic;
+  line-height: 16px;
+}
+
+.max-op {
+  color: #484343;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+
+.har li {
+  color: #00546e;
+  padding: 13px;
+  font-size: 20px;
+  display: flex;
+  background: url(../img/sht.ico) no-repeat;
+}
+
+.har li div {
+  margin-left: 50px;
+}
+
+input, 
+textarea {
+  text-transform: capitalize;
+}
+.subform {
+  font-size: 1.2em;
+  color: #b50404;
+  font-family:  times new roman, sans-serif;
+}
+.subform .label {
+  display: inline-block;
+  width: 200px;
+  vertical-align: top;
+  text-align: left;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.subform input, .subform textarea {
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(255, 230, 179, 1);
+  color: #804444;
+  font-size: 20px;
+  box-shadow: inset 0 0 15px rgba(250, 95, 95, 1);
+  width: 500px;
+  padding: 5px;
+}
+.subform input:focus, .subform textarea:focus {
+  background-color: white;
+  color: black;
+}
+.subform input[type="submit"] {
+  margin-left: 345px;
+  padding: 10px 25px;
+  font-size: 1em;
+  color: white;
+  background: #fcdad2;
+  background: linear-gradient(to bottom, #e03d3d 40%, #ba1313);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #fcdad2;
+  width: 250px;
+}
+
+body.cot a img.img {
+  border: 2px solid #ffad5e;
+}
+
+a img.logo {
+  display: inline-block;
+  width: 170px;
+  height: 70px;
+  margin-top: -8px;
+}
+
+body.cot a img.logo {
+  display: inline-block;
+  width: 170px;
+  height: 70px;
+  margin-top: -8px;
+}
+body.cot table {
+  margin-left: 50px;
+}
+
+body.cot a:hover img {
+  border: none;
+}
+
+body.cot p:first-letter {
+  font-family: Playfair Display SC, sans-serif;
+  font-size: 25px;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
